@@ -1,0 +1,6 @@
+git config --global user.name “ayushi2797”
+
+git config --global user.email “ayushi.srivastava2797@gmail.com”
+
+git config --list
+
