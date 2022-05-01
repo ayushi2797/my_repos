@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Restaurant Search Page</title>
+    <link href="./restrau_style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <!-- logo and authentication -->
+    <div style="border:2px solid white; width:99%;height:50px;" class="header">
+        <div style="display:inline-block;" class="logo"><b>e!</b></div>
+        <div style="display:inline-block; float: right;" class="login">
+            <button style="border: white; background-color: red; color: white;">Login</button>
+            <button style="border: white double; background-color: red;color: white;">Create an account</button>
+        </div>
+    </div>
+    <!-- header display -->
+    <div style="border:2px solid white; width:99%;height:60px;" class="display">
+        <p style="font-size: x-large;"><b>Breakfast places in Mumbai</b></p>
+    </div>
+    <!-- Left panel with filters -->
+    <div style="border:2px solid white; width:20%;height:590px; float:left;" class="left">
+         <div style="border:2px solid white; width: 70%;height:545px; margin-left: 18%; margin-top: 3%;float: left;" class="filter">
+            <p style="font-size: large;" ><b>Filters</b></p>
+            <p><b>Select Location</b></p>
+            <select><option >Select Location</option></select>
+            <p><b>Cuisine</b></p>
+            <input type="checkbox" id="check" class="opt"/>North Indian </br>
+            <input type="checkbox" id="check";"/>South Indian </br>
+            <input type="checkbox" id="check"/>Chinese </br>
+            <input type="checkbox" id="check"/>Fast Food </br>
+            <input type="checkbox" id="check"/>Street Food </br>
+                  
+            <p><b>Cost For two</b></p>
+            <input type="radio" id="check" name="cost"/>Less than 500 </br>
+                  <input type="radio" id="check" name="cost"/>500 to 1000 </br>
+                  <input type="radio" id="check" name="cost"/>1000 to 1500 </br>
+                  <input type="radio" id="check" name="cost"/>1500 to 2000</br>
+                  <input type="radio" id="check" name="cost"/>2000+ </br>
+            <p><b>Sort</b></p>
+            <input type="radio" id="check" name="sort" name="cost"/>Price low to high </br>
+                  <input type="radio" id="check" name="sort" name="cost"/>Price high to low</br>
+        </div>
+    </div>
+    <!-- Right panel with two diplays -->
+    <div style="border:2px solid white; width: 79%;height: 590px;float: left;" class="right">
+      <div style="border:2px solid white; width: 62%;height:220px; margin-top: 25px;margin-left: 3%;display: inline-block;"class="rightfrst">
+            <div style="display: inline-block;">
+                <img src="./Food_pic.png" height="70px" width="70%" alt="Error loading image" style="padding-left: 10px;" class="image"/>
+            </div>
+            <div style="display: inline-block;" class="upcard">
+              <div><h3>The Big Chill Cakery</h3></div>
+              <div><h5>FORT</h5></div>
+              <div>Shop 1, Plot D, Samruddhi Complex, Chincholi...</div>
+            </div>
+            <hr/>
+            <div>
+              <table>
+                <tbody>
+                   <tr style="text-align: left;">
+                     <th>CUISINES:</th>
+                     <td>Bakery</td>
+                   </tr>
+                   <tr style="text-align: left;">
+                    <th>COST FOR TWO:</th>
+                    <td>₹700</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+      </div>
+      <div style="border:2px solid white; width: 62%;height:220px; margin-top: 25px;margin-left: 3%;" class="rightsecond">
+            <div style="display: inline-block;">
+               <img src="./Food_pic.png"
+               alt="Error loading image" style="padding-left: 10px;" class="image"/>
+            </div>
+            <div style="display: inline-block;" class="downcard">
+                <div><h3>The Bake Shop</h3></div>
+              <div><h5>FORT</h5></div>
+              <div>Shop 1, Plot D, Samruddhi Complex, Chincholi...</div>
+            </div>
+            <hr/>
+            <div>
+                <table>
+                  <tbody>
+                     <tr style="text-align: left;">
+                       <th>CUISINES:</th>
+                       <td>Bakery</td>
+                     </tr>
+                     <tr style="text-align: left;">
+                      <th>COST FOR TWO:</th>
+                      <td>₹700</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+        <!-- Lower page buttons  -->
+        <div style="border:2px solid white; width: 42%;height:35px; margin-top: 45px;margin-left: 15%;" class="lower">
+              <button style="float: left; margin-right: 20px;"><</button>
+              <button style="float: left;margin-right: 10px;">1</button>
+              <button style="float: left;margin-right: 10px;">2</button>
+              <button style="float: left;margin-right: 10px;">3</button>
+              <button style="float: left;margin-right: 10px;">4</button>
+              <button style="float: left;margin-right: 20px;">5</button>
+              <button style="float: left;">></button>
+        </div>
+    </div>
+</body>
+</html>
