@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Poppins;
+}
+body{
+    background-color: white;
+}
+.back-img{
+    background-size: cover;
+    height: 480px;
+}
+.login, .acc{
+    color: white;
+    opacity: 0.8;
+}
+.login:hover, .acc:hover{
+    color: white;
+}
+.acc{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.logo{
+
+    display: inline;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 50px;
+    color: red;
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.locationDropdown, .restaurantsinput{
+    font-size: 15px;
+    color: grey;
+}
+.restaurantSelector{
+    position: relative;
+}
+.search-icon{
+    width: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    color: grey;
+}
+
+.quick-searches{
+    text-align: left;
+    color:darkblue;
+    font-size: 30px;
+    font-weight:900;
+}
+.qs-subtitle{
+    color:grey;
+}
+.card{
+    width: 360px;
+    height: 160px;
+    box-shadow: 0 3px 6px 0 grey;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
+.card-img{
+    height: 160px;
+    border:none;
+    border-radius: 0;
+}
+.card-title{
+    text-align: left;
+    color: darkblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-description{
+    text-align: left;
+    color:grey;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+
+@media(max-width:768px) {
+    .login-signup-row{
+        display:none;
+    }
+    .acc, .login{
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 768px) {
+    .logo{
+        font-size: 70px;
+    }
+    .title{
+        font-size: 36px;
+    }
+}
